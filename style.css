@@ -1,0 +1,189 @@
+#container {
+    width: 1000px;
+    height: 400px;
+}
+.head {
+	position: relative;
+	left: 45px;
+}
+.body {
+	background-color: black;
+	width: 50px;
+	height: 130px;
+	position: relative;
+	left: 75px;
+}
+.leftarm {
+	width: 10px;
+	height: 65px;
+	position: absolute;
+	top: 118px;
+	left: 60px;
+	transform: rotate(42deg);
+	background-color: black;
+}
+.lefthand {
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	top: 160px;
+	left: 55px;
+	transform: rotate(135deg);
+	background-color: #F1C27D;
+}
+.rightarm {
+	width: 10px;
+	height: 65px;
+	position: absolute;
+	top: 117px;
+	left: 145px;
+	transform: rotate(-42deg);
+	background-color: black;
+}
+.righthand {
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	top: 132px;
+	left: 177px;
+	transform: rotate(-135deg);
+	background-color: #F1C27D;
+}
+.lefthita {
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	background-color: black;
+	left: 90px;
+	top: 252px;
+}
+.leftbinti {
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	background-color: #F1C27D;
+	top: 302px;
+	left: 90px;
+}
+.righthita {
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	background-color: black;
+	left: 117px;
+	top: 252px;
+}
+.rightbinti {
+	width: 10px;
+	height: 50px;
+	position: absolute;
+	background-color: #F1C27D;
+	top: 302px;
+	left: 117px;
+}
+.leftpaa {
+	width: 20px;
+	height: 15px;
+	background-color: red;
+	position: absolute;
+	top: 352px;
+	left: 90px;
+}
+.rightpaa {
+	width: 20px;
+	height: 15px;
+	background-color: red;
+	position: absolute;
+	top: 352px;
+	left: 117px;
+}
+.move1 .leftarm {
+	top: 120px;
+	left: 65px;
+	transform: rotate(30deg);
+}
+.move1 .lefthand {
+	top: 167px;
+	left: 65px;
+	transform: rotate(125deg);
+}
+.move1 .rightarm {
+	top: 137px;
+	left: 120px;
+	transform: rotate(-180deg);
+}
+.move1 .righthand {
+	top: 150px;
+	left: 153px;
+	transform: rotate(-90deg);
+}
+.move1 .lefthita {
+	left: 100px;
+	top: 240px;
+	transform: rotate(-25deg);
+}
+.move1 .leftbinti {
+	top: 287px;
+	left: 110px;
+}
+.move1 .righthita {
+	left: 117px;
+	top: 252px;
+}
+.move1 .rightbinti {
+	top: 302px;
+	left: 117px;
+}
+.move1 .leftpaa {
+	top: 337px;
+	left: 110px;
+}
+.move1 .rightpaa {
+	top: 352px;
+	left: 117px;
+}
+.move2 .leftarm {
+	top: 118px;
+	left: 60px;
+	transform: rotate(42deg);
+}
+.move2 .lefthand {
+	top: 160px;
+	left: 55px;
+	transform: rotate(135deg);
+}
+.move2 .rightarm {
+	top: 117px;
+	left: 145px;
+	transform: rotate(-42deg);
+}
+.move2 .righthand {
+	top: 132px;
+	left: 177px;
+	transform: rotate(-135deg);
+}
+.move2 .lefthita {
+	left: 90px;
+	top: 252px;
+}
+.move2 .leftbinti {
+	top: 302px;
+	left: 90px;
+}
+.move2 .righthita {
+	left: 110px;
+	top: 240px;
+	transform: rotate(-25deg);
+}
+.move2 .rightbinti {
+	top: 286px;
+	left: 121px;
+}
+.move2 .leftpaa {
+	top: 352px;
+	left: 90px;
+}
+.move2 .rightpaa {
+	top: 336px;
+	left: 121px;
+}
